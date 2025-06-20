@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naši pejsci</title>
+    <link rel="stylesheet" href="../CSS/CSS.css">
+    <link rel="icon" href="../IMG/icon.png">
+</head>
+
+<body>
+    <header class="header">
+        <a href="../utulek.html" class="logo">Tlapkový ráj</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="prispet.html">Podpořit</a></li>
+            <li><a href="adoptuj.html">Adopce</a></li>
+            <li><a href="novinky-akce.html">Novinky a akce</a></li>
+            <li><a href="onas.html">O nás</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="oNasNapis">
+            <img src="../IMG/onasOBR.png" alt="">
+            <article>
+            <h1></h1><p>
+            <strong>Hledáte parťáka do nepohody?</strong> V našem útulku jich hned několik najdete. Od štěňátek až po dospělé psy, o
+            které se jejich majitelé nemohli dále starat. A když si je osvojíte a věnujete jim svou lásku a pozornost,
+            několikanásobně vám to vrátí. Je to skvělý pocit.</p>
+        </article>
+        </section>
+        <section class="pejsci2">
+            <article class="psi-celek" id="pes">
+                <div class=" pes2">
+                    <img src="../IMG/budocek.webp" alt="">
+                    <h3>Hugo</h3>
+                    <p>Hledáte psího elegána s francouzským šarmem? Francouzský buldoček Hugo je připraven zaplnit váš
+                        domov láskou a zábavou!</p>
+                    <div id="container">
+                        <a href="hugo.html" class="learn-more">
+                            <span class="circle" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <span class="button-text">Mám zájem</span>
+                        </a>
+                    </div>
+                </div>
+                <div class=" pes2">
+                    <img src="../IMG/dobrman.jpg" alt="">
+                    <h3>Bruno</h3>
+                    <p>Elegantní aristokrat a oddaný ochránce? Dobrman Bruno hledá rodinu, kde by mohl být hrdým členem!
+                    </p>
+                    <div id="container">
+                        <a href="bruno.html" class="learn-more">
+                            <span class="circle" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <span class="button-text">Mám zájem</span>
+                        </a>
+                    </div>
+                </div>
+                <div class=" pes2">
+                    <img src="../IMG/bigl.jpg" alt="">
+                    <h3>Daisy</h3>
+                    <p>Pohodový parťák s vášní pro procházky? Bígl Daisy bude vaším průvodcem po všech stezkách a
+                        lesních cestičkách!</p>
+                    <div id="container">
+                        <a href="daisy.html" class="learn-more">
+                            <span class="circle" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <span class="button-text">Mám zájem</span>
+                        </a>
+                    </div>
+                </div>
+                <div class=" pes2">
+                    <img src="../IMG/kokospane.jpg" alt="">
+                    <h3>Molly</h3>
+                    <p>Mazlivý společník s touhou být pořád u vás? Kokršpaněl Molly je připravena si získat vaše srdce!"
+                    </p>
+                    <div id="container">
+                        <a href="molly.html" class="learn-more">
+                            <span class="circle" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <span class="button-text">Mám zájem</span>
+                        </a>
+                    </div>
+                </div>
+                <div class=" pes2">
+                    <img src="../IMG/retrivr.jpg" alt="">
+                    <h3>Charlie</h3>
+                    <p>Klidný medvídek pro klidné dny i dobrodružné chvíle? Zlatý retrívr Charlie je přesně ten pravý!
+                    </p>
+                    <div id="container">
+                        <a href="charlie.html" class="learn-more">
+                            <span class="circle" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <span class="button-text">Mám zájem</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <div class="formular-obal" id="form">
+            <h1>Kontaktní formulář</h1>
+            <form id="kontaktni-formular" method="post">
+              <div class="formular-skupina">
+                <div class="formular-radek">
+                  <label for="jmeno">Jméno *</label>
+                  <input type="text" id="jmeno" name="jmeno" required>
+                </div>
+                <div class="formular-radek">
+                  <label for="prijmeni">Příjmení *</label>
+                  <input type="text" id="prijmeni" name="prijmeni" required>
+                </div>
+              </div>
+          
+              <div class="formular-skupina">
+                <div class="formular-radek-cely">
+                  <label for="vek">Věk *</label>
+                  <input type="number" id="vek" name="vek" required>
+                </div>
+              </div>
+          
+              <div class="formular-skupina">
+                <div class="formular-radek-cely">
+                  <label for="adresa">Adresa *</label>
+                  <input type="text" id="adresa" name="adresa" required>
+                </div>
+              </div>
+          
+              <div class="formular-skupina">
+                <div class="formular-radek">
+                  <label for="telefon">Telefon *</label>
+                  <input type="tel" id="telefon" name="telefon" required>
+                </div>
+                <div class="formular-radek">
+                  <label for="email">E-mail *</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+              </div>
+          
+              <div class="formular-skupina">
+                <div class="formular-radek-cely">
+                  <label for="zprava">Vaše zpráva</label>
+                  <textarea id="zprava" name="zprava" placeholder="Napište nám svou zprávu..."></textarea>
+                </div>
+              </div>
+          
+              <div class="formular-tlacitko">
+                <button type="submit">Odeslat</button>
+              </div>
+            </form>
+          </div>
+    </main>
+    <footer>
+        <div class="obsah-paticky">
+            <div class="sekce-paticky">
+                <h3>Navigace</h3>
+                <ul>
+                    <li><a href="HTML/prispet.html">Podpořit</a></li>
+                    <li><a href="HTML/adoptuj.html">Adopce</a></li>
+                    <li><a href="HTML/novinky-akce.html">Novinky a akce</a></li>
+                    <li><a href="HTML/onas.html">O nás</a></li>
+                </ul>
+            </div>
+            <div class="sekce-paticky">
+                <h3>Kontakt</h3>
+                <p>ČP Ulice</p>
+                <p>Město, PSČ</p>
+                <p>Email: nahodny@email.com</p>
+                <p>Tel: +420 XXX XXX XXX</p>
+            </div>
+            <div class="sekce-paticky">
+                <h3>Sociální sítě</h3>
+                <a href="https://www.facebook.com/"><img src="../IMG/face.png" alt="Facebook"></a>
+                <a href="https://x.com/"><img src="../IMG/X.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/"><img src="../IMG/ing.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
